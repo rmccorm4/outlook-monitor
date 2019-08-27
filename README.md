@@ -9,7 +9,15 @@ go build
 
 ## Usage
 
+You'll need to set the `OUTLOOK_EMAIL` and `OUTLOOK_PASSWORD` environment variables
+for the client to login and check your emails.
+
 ```bash
+# Set email/password as environment variables
+export OUTLOOK_EMAIL=username@email.com
+export OUTLOOK_PASSWORD=password
+
+# Start monitor
 ./outlook_monitor &
 ```
 
