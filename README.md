@@ -4,6 +4,9 @@ Simple Go client to check unread Outlook emails every 30 seconds and send a desk
 ## Setup
 
 ```bash
+git clone https://github.com/rmccorm4/outlook-monitor.git
+cd outlook-monitor
+
 go build
 ```
 
