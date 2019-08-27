@@ -18,7 +18,7 @@ export OUTLOOK_EMAIL=username@email.com
 export OUTLOOK_PASSWORD=password
 
 # Start monitor
-./outlook_monitor &
+./outlook-monitor &
 ```
 
 ## Logs
